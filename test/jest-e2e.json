@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@test-obj/objects/(.*)": "<rootDir>/../libs/objects/src/$1",
+    "@test-obj/objects": "<rootDir>/../libs/objects/src",
+    "@test-helpers/test-helpers/(.*)": "<rootDir>/../libs/test-helpers/src/$1",
+    "@test-helpers/test-helpers": "<rootDir>/../libs/test-helpers/src"
+  }
+}
